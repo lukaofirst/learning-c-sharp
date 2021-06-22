@@ -1,0 +1,16 @@
+D:\Curso C#\programa4\programa4\programa4\bin\Debug\net5.0\programa4.exe
+D:\Curso C#\programa4\programa4\programa4\bin\Debug\net5.0\programa4.deps.json
+D:\Curso C#\programa4\programa4\programa4\bin\Debug\net5.0\programa4.runtimeconfig.json
+D:\Curso C#\programa4\programa4\programa4\bin\Debug\net5.0\programa4.runtimeconfig.dev.json
+D:\Curso C#\programa4\programa4\programa4\bin\Debug\net5.0\programa4.dll
+D:\Curso C#\programa4\programa4\programa4\bin\Debug\net5.0\ref\programa4.dll
+D:\Curso C#\programa4\programa4\programa4\bin\Debug\net5.0\programa4.pdb
+D:\Curso C#\programa4\programa4\programa4\obj\Debug\net5.0\programa4.csproj.AssemblyReference.cache
+D:\Curso C#\programa4\programa4\programa4\obj\Debug\net5.0\programa4.GeneratedMSBuildEditorConfig.editorconfig
+D:\Curso C#\programa4\programa4\programa4\obj\Debug\net5.0\programa4.AssemblyInfoInputs.cache
+D:\Curso C#\programa4\programa4\programa4\obj\Debug\net5.0\programa4.AssemblyInfo.cs
+D:\Curso C#\programa4\programa4\programa4\obj\Debug\net5.0\programa4.csproj.CoreCompileInputs.cache
+D:\Curso C#\programa4\programa4\programa4\obj\Debug\net5.0\programa4.dll
+D:\Curso C#\programa4\programa4\programa4\obj\Debug\net5.0\ref\programa4.dll
+D:\Curso C#\programa4\programa4\programa4\obj\Debug\net5.0\programa4.pdb
+D:\Curso C#\programa4\programa4\programa4\obj\Debug\net5.0\programa4.genruntimeconfig.cache
