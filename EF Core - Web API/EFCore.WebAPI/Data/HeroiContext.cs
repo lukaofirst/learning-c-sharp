@@ -12,7 +12,7 @@ namespace EFCore.WebAPI.Data {
         public DbSet<Arma> Armas { get; set; }
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder) {
-            optionsBuilder.UseSqlServer("");
+            optionsBuilder.UseSqlServer(@"Integrated Security=SSPI;Persist Security Info=False;Initial Catalog=HeroApp;Data Source=.\SQLEXPRESS");
         }
     }
 }
