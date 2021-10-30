@@ -57,4 +57,3 @@ E:\My Projects\learning-c-sharp\EF Core - Web API\EFCore.WebAPI\bin\Debug\net5.0
 E:\My Projects\learning-c-sharp\EF Core - Web API\EFCore.WebAPI\bin\Debug\net5.0\EFCore.Repo.dll
 E:\My Projects\learning-c-sharp\EF Core - Web API\EFCore.WebAPI\bin\Debug\net5.0\EFCore.Dominio.pdb
 E:\My Projects\learning-c-sharp\EF Core - Web API\EFCore.WebAPI\bin\Debug\net5.0\EFCore.Repo.pdb
-E:\My Projects\learning-c-sharp\EF Core - Web API\EFCore.WebAPI\obj\Debug\net5.0\EFCore.WebAPI.csproj.CopyComplete
