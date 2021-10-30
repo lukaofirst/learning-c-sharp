@@ -15,3 +15,4 @@ E:\My Projects\learning-c-sharp\EF Core - Web API\EFCore.Repo\obj\Debug\net5.0\E
 E:\My Projects\learning-c-sharp\EF Core - Web API\EFCore.Repo\bin\Debug\net5.0\EFCore.Repo.runtimeconfig.json
 E:\My Projects\learning-c-sharp\EF Core - Web API\EFCore.Repo\bin\Debug\net5.0\EFCore.Repo.runtimeconfig.dev.json
 E:\My Projects\learning-c-sharp\EF Core - Web API\EFCore.Repo\obj\Debug\net5.0\EFCore.Repo.genruntimeconfig.cache
+E:\My Projects\learning-c-sharp\EF Core - Web API\EFCore.Repo\obj\Debug\net5.0\EFCore.Repo.csproj.CopyComplete
