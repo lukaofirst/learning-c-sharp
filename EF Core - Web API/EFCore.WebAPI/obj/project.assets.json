@@ -1519,6 +1519,31 @@
         "runtime": {
           "lib/netstandard1.3/System.Xml.XmlSerializer.dll": {}
         }
+      },
+      "EFCore.Dominio/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "compile": {
+          "bin/placeholder/EFCore.Dominio.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/EFCore.Dominio.dll": {}
+        }
+      },
+      "EFCore.Repo/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "EFCore.Dominio": "1.0.0",
+          "Microsoft.EntityFrameworkCore": "5.0.11",
+          "Microsoft.EntityFrameworkCore.SqlServer": "5.0.11"
+        },
+        "compile": {
+          "bin/placeholder/EFCore.Repo.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/EFCore.Repo.dll": {}
+        }
       }
     }
   },
@@ -5787,10 +5812,22 @@
         "system.xml.xmlserializer.4.3.0.nupkg.sha512",
         "system.xml.xmlserializer.nuspec"
       ]
+    },
+    "EFCore.Dominio/1.0.0": {
+      "type": "project",
+      "path": "../EFCore.Dominio/EFCore.Dominio.csproj",
+      "msbuildProject": "../EFCore.Dominio/EFCore.Dominio.csproj"
+    },
+    "EFCore.Repo/1.0.0": {
+      "type": "project",
+      "path": "../EFCore.Repo/EFCore.Repo.csproj",
+      "msbuildProject": "../EFCore.Repo/EFCore.Repo.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net5.0": [
+      "EFCore.Dominio >= 1.0.0",
+      "EFCore.Repo >= 1.0.0",
       "Microsoft.EntityFrameworkCore >= 5.0.11",
       "Microsoft.EntityFrameworkCore.SqlServer >= 5.0.11",
       "Microsoft.EntityFrameworkCore.Tools >= 5.0.11"
@@ -5828,7 +5865,14 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "E:\\My Projects\\learning-c-sharp\\EF Core - Web API\\EFCore.Dominio\\EFCore.Dominio.csproj": {
+              "projectPath": "E:\\My Projects\\learning-c-sharp\\EF Core - Web API\\EFCore.Dominio\\EFCore.Dominio.csproj"
+            },
+            "E:\\My Projects\\learning-c-sharp\\EF Core - Web API\\EFCore.Repo\\EFCore.Repo.csproj": {
+              "projectPath": "E:\\My Projects\\learning-c-sharp\\EF Core - Web API\\EFCore.Repo\\EFCore.Repo.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

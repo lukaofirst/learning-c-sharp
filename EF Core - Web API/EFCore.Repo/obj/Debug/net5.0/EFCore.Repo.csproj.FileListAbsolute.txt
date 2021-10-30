@@ -1,0 +1,17 @@
+E:\My Projects\learning-c-sharp\EF Core - Web API\EFCore.Repo\bin\Debug\net5.0\EFCore.Repo.deps.json
+E:\My Projects\learning-c-sharp\EF Core - Web API\EFCore.Repo\bin\Debug\net5.0\EFCore.Repo.dll
+E:\My Projects\learning-c-sharp\EF Core - Web API\EFCore.Repo\bin\Debug\net5.0\ref\EFCore.Repo.dll
+E:\My Projects\learning-c-sharp\EF Core - Web API\EFCore.Repo\bin\Debug\net5.0\EFCore.Repo.pdb
+E:\My Projects\learning-c-sharp\EF Core - Web API\EFCore.Repo\bin\Debug\net5.0\EFCore.Dominio.dll
+E:\My Projects\learning-c-sharp\EF Core - Web API\EFCore.Repo\bin\Debug\net5.0\EFCore.Dominio.pdb
+E:\My Projects\learning-c-sharp\EF Core - Web API\EFCore.Repo\obj\Debug\net5.0\EFCore.Repo.csproj.AssemblyReference.cache
+E:\My Projects\learning-c-sharp\EF Core - Web API\EFCore.Repo\obj\Debug\net5.0\EFCore.Repo.GeneratedMSBuildEditorConfig.editorconfig
+E:\My Projects\learning-c-sharp\EF Core - Web API\EFCore.Repo\obj\Debug\net5.0\EFCore.Repo.AssemblyInfoInputs.cache
+E:\My Projects\learning-c-sharp\EF Core - Web API\EFCore.Repo\obj\Debug\net5.0\EFCore.Repo.AssemblyInfo.cs
+E:\My Projects\learning-c-sharp\EF Core - Web API\EFCore.Repo\obj\Debug\net5.0\EFCore.Repo.csproj.CoreCompileInputs.cache
+E:\My Projects\learning-c-sharp\EF Core - Web API\EFCore.Repo\obj\Debug\net5.0\EFCore.Repo.dll
+E:\My Projects\learning-c-sharp\EF Core - Web API\EFCore.Repo\obj\Debug\net5.0\ref\EFCore.Repo.dll
+E:\My Projects\learning-c-sharp\EF Core - Web API\EFCore.Repo\obj\Debug\net5.0\EFCore.Repo.pdb
+E:\My Projects\learning-c-sharp\EF Core - Web API\EFCore.Repo\bin\Debug\net5.0\EFCore.Repo.runtimeconfig.json
+E:\My Projects\learning-c-sharp\EF Core - Web API\EFCore.Repo\bin\Debug\net5.0\EFCore.Repo.runtimeconfig.dev.json
+E:\My Projects\learning-c-sharp\EF Core - Web API\EFCore.Repo\obj\Debug\net5.0\EFCore.Repo.genruntimeconfig.cache

@@ -1,0 +1,12 @@
+E:\My Projects\learning-c-sharp\EF Core - Web API\EFCore.Dominio\bin\Debug\net5.0\EFCore.Dominio.deps.json
+E:\My Projects\learning-c-sharp\EF Core - Web API\EFCore.Dominio\bin\Debug\net5.0\EFCore.Dominio.dll
+E:\My Projects\learning-c-sharp\EF Core - Web API\EFCore.Dominio\bin\Debug\net5.0\ref\EFCore.Dominio.dll
+E:\My Projects\learning-c-sharp\EF Core - Web API\EFCore.Dominio\bin\Debug\net5.0\EFCore.Dominio.pdb
+E:\My Projects\learning-c-sharp\EF Core - Web API\EFCore.Dominio\obj\Debug\net5.0\EFCore.Dominio.csproj.AssemblyReference.cache
+E:\My Projects\learning-c-sharp\EF Core - Web API\EFCore.Dominio\obj\Debug\net5.0\EFCore.Dominio.GeneratedMSBuildEditorConfig.editorconfig
+E:\My Projects\learning-c-sharp\EF Core - Web API\EFCore.Dominio\obj\Debug\net5.0\EFCore.Dominio.AssemblyInfoInputs.cache
+E:\My Projects\learning-c-sharp\EF Core - Web API\EFCore.Dominio\obj\Debug\net5.0\EFCore.Dominio.AssemblyInfo.cs
+E:\My Projects\learning-c-sharp\EF Core - Web API\EFCore.Dominio\obj\Debug\net5.0\EFCore.Dominio.csproj.CoreCompileInputs.cache
+E:\My Projects\learning-c-sharp\EF Core - Web API\EFCore.Dominio\obj\Debug\net5.0\EFCore.Dominio.dll
+E:\My Projects\learning-c-sharp\EF Core - Web API\EFCore.Dominio\obj\Debug\net5.0\ref\EFCore.Dominio.dll
+E:\My Projects\learning-c-sharp\EF Core - Web API\EFCore.Dominio\obj\Debug\net5.0\EFCore.Dominio.pdb
