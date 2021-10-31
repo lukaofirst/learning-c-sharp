@@ -11,17 +11,18 @@ namespace EFCore.WebAPI.Controllers {
     [Route("api/[controller]")]
     [ApiController]
     public class BatalhaController : ControllerBase {
-        public readonly HeroiContext _context;
-        public BatalhaController(HeroiContext context) {
-            _context = context;
+        private IEFCoreRepository _repo { get; set; }
+        public BatalhaController(IEFCoreRepository repo) {
+            _repo = repo;
         }
 
         // GET: api/<BatalhaController>
         [HttpGet]
-        public ActionResult Get() {
+        public async Task<IActionResult> Get() {
             try {
+                var herois = await _repo.GetAllHerois();
 
-                return Ok(new Batalha());
+                return Ok(herois);
             } catch (Exception ex) {
 
                 return BadRequest($"Erro: {ex.Message}");
@@ -36,28 +37,35 @@ namespace EFCore.WebAPI.Controllers {
 
         // POST api/<BatalhaController>
         [HttpPost]
-        public ActionResult Post(Batalha model) {
+        public async Task<IActionResult> Post(Batalha model) {
             try {
-                _context.Add(model);
-                _context.SaveChanges();
+                _repo.Add(model);
 
-                return Ok("A batalha deu bom");
+                if(await _repo.SaveChangeAsync()) {
+                    return Ok("A batalha deu bom");
+                }
+
             } catch (Exception ex) {
 
                 return BadRequest($"{ex.Message}");
             }
+
+            return BadRequest("Não salvou :(");
         }
 
         // PUT api/<BatalhaController>/5
-        [HttpPut("{id}")]
-        public ActionResult Put(int id, Batalha model) {
+        /*[HttpPut("{id}")]
+        public async Task<IActionResult> Put(int id, Batalha model) {
             try {
-                if (_context.Batalhas
+                if (_repo
                     .AsNoTracking()
                     .FirstOrDefault(b => b.Id == id) != null) 
                 {
-                    _context.Update(model);
-                    _context.SaveChanges();
+                    _repo.Update(model);
+
+                    if(await _repo.SaveChangeAsync()) {
+                        return Ok("Registro de batalha atualizado");
+                    }
 
                     return Ok("Deu bom");
                 }
@@ -68,11 +76,24 @@ namespace EFCore.WebAPI.Controllers {
 
                 return BadRequest($"{ex.Message}");
             }
-        }
+        }*/
 
         // DELETE api/<BatalhaController>/5
         [HttpDelete("{id}")]
         public void Delete(int id) {
+            /*try {
+                _repo.Delete(model);
+
+                if (await _repo.SaveChangeAsync()) {
+                    return Ok("A batalha deu bom");
+                }
+
+            } catch (Exception ex) {
+
+                return BadRequest($"{ex.Message}");
+            }
+
+            return BadRequest("Não salvou :(");*/
         }
     }
 }
