@@ -2,6 +2,7 @@
 using EFCore.Repo;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -25,8 +26,9 @@ namespace EFCore.WebAPI.Controllers {
             // Não faça um looping, por exemplo um foreach com o '_context.Herois' pois isso pode travar o banco
             // Pois ele ainda mantém a conexão aberta
 
+            // Utilizando as Functions do Entity Framework Core
             var listHeroi = _context.Herois
-                                .Where(h => h.Nome.Contains(nome))
+                                .Where(h => EF.Functions.Like(h.Nome, $"%{nome}%"))
                                 .ToList();
 
             // var listHeroi = (from heroi in _context.Herois
