@@ -29,9 +29,16 @@ namespace EFCore.WebAPI.Controllers {
         }
 
         // GET api/<HeroiController>/5
-        [HttpGet("{id}", Name = "GET")]
-        public ActionResult Get(int id) {
-            return Ok("value");
+        [HttpGet("{id}", Name = "GetHeroi")]
+        public async Task<IActionResult> Get(int id) {
+            try {
+                var heroi = await _repo.GetHeroiById(id, true);
+
+                return Ok(heroi);
+            } catch (Exception ex) {
+
+                return BadRequest($"Erro: {ex.Message}");
+            }
         }
 
         // POST api/<HeroiController>
