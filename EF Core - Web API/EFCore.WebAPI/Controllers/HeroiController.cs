@@ -1,6 +1,7 @@
 ﻿using EFCore.Dominio;
 using EFCore.Repo;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -21,7 +22,7 @@ namespace EFCore.WebAPI.Controllers {
             try {
 
 
-                return Ok();
+                return Ok(new Heroi());
             } catch (Exception ex) {
                 return BadRequest($"Erro: {ex.Message}");
             }
@@ -35,17 +36,9 @@ namespace EFCore.WebAPI.Controllers {
 
         // POST api/<HeroiController>
         [HttpPost]
-        public ActionResult Post() {
+        public ActionResult Post(Heroi model) {
             try {
-                var heroi = new Heroi {
-                    Nome = "Homem de Ferro",
-                    Armas = new List<Arma> {
-                        new Arma { Nome = "Mac 5" },
-                        new Arma { Nome = "Mac 3" },
-                    }
-                };
-
-                _context.Herois.Add(heroi);
+                _context.Herois.Add(model);
                 _context.SaveChanges();
 
                 return Ok("Deu bom");
@@ -56,21 +49,19 @@ namespace EFCore.WebAPI.Controllers {
 
         // PUT api/<HeroiController>/5
         [HttpPut("{id}")]
-        public ActionResult Put(int id) {
+        public ActionResult Put(int id, Heroi model) {
             try {
-                var heroi = new Heroi {
-                    Id = id,
-                    Nome = "Iron Man",
-                    Armas = new List<Arma> {
-                        new Arma { Id = 3, Nome = "Mark III" },
-                        new Arma { Id = 4, Nome = "Mark V" },
-                    }
-                };
+                if (_context.Herois
+                    .AsNoTracking()
+                    .FirstOrDefault(h => h.Id == id) != null) 
+                {
+                    _context.Update(model);
+                    _context.SaveChanges();
 
-                _context.Update(heroi);
-                _context.SaveChanges();
+                    return Ok("Deu bom");
+                }
 
-                return Ok("Deu bom");
+                return Ok("Não Encontrado!");
             } catch (Exception ex) {
                 return BadRequest($"Erro: {ex.Message}");
             }
