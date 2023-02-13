@@ -3,25 +3,24 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "001_classes_and_objects", "001_classes_and_objects\001_classes_and_objects.csproj", "{8F405862-CC83-4F2C-BADC-6BEDD35B55DA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "001_classes_and_objects", "001_classes_and_objects\001_classes_and_objects.csproj", "{8F405862-CC83-4F2C-BADC-6BEDD35B55DA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "002_object_type", "002_object_type\002_object_type.csproj", "{5C769805-7537-4313-A591-E8355DCF7E8A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "002_object_type", "002_object_type\002_object_type.csproj", "{5C769805-7537-4313-A591-E8355DCF7E8A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "003_static_members", "003_static_members\003_static_members.csproj", "{6ECE8FF6-D250-4644-821F-8B3E8A50103B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "003_static_members", "003_static_members\003_static_members.csproj", "{6ECE8FF6-D250-4644-821F-8B3E8A50103B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "004_constructors", "004_constructors\004_constructors.csproj", "{37D41A47-CA4D-44D5-A456-9BEEE851FCBE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "004_constructors", "004_constructors\004_constructors.csproj", "{37D41A47-CA4D-44D5-A456-9BEEE851FCBE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "005_this_keyword", "005_this_keyword\005_this_keyword.csproj", "{9D17C430-DD7D-4648-A599-CEFE6D6582D3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "005_this_keyword", "005_this_keyword\005_this_keyword.csproj", "{9D17C430-DD7D-4648-A599-CEFE6D6582D3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "006_properties_and_auto_properties", "006_properties_and_auto_properties\006_properties_and_auto_properties.csproj", "{02CE3563-091D-4A13-8313-F1E70E2DE99B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "006_properties_and_auto_properties", "006_properties_and_auto_properties\006_properties_and_auto_properties.csproj", "{02CE3563-091D-4A13-8313-F1E70E2DE99B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "007_ordering_class_members", "007_ordering_class_members\007_ordering_class_members.csproj", "{61460849-9EFB-4AB7-BD2D-7F4FAB27AEFE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
-	EndGlobalSection
-	GlobalSection(SolutionProperties) = preSolution
-		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{8F405862-CC83-4F2C-BADC-6BEDD35B55DA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -48,5 +47,15 @@ Global
 		{02CE3563-091D-4A13-8313-F1E70E2DE99B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{02CE3563-091D-4A13-8313-F1E70E2DE99B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{02CE3563-091D-4A13-8313-F1E70E2DE99B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{61460849-9EFB-4AB7-BD2D-7F4FAB27AEFE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{61460849-9EFB-4AB7-BD2D-7F4FAB27AEFE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{61460849-9EFB-4AB7-BD2D-7F4FAB27AEFE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{61460849-9EFB-4AB7-BD2D-7F4FAB27AEFE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2208F7BD-7ECA-4BC3-9FBA-B1F3A0184CE5}
 	EndGlobalSection
 EndGlobal
