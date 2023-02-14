@@ -17,6 +17,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "006_properties_and_auto_pro
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "007_ordering_class_members", "007_ordering_class_members\007_ordering_class_members.csproj", "{61460849-9EFB-4AB7-BD2D-7F4FAB27AEFE}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "008_overriding_and_overhiding_methods", "008_overriding_and_overhiding_methods\008_overriding_and_overhiding_methods.csproj", "{86F5F2C0-2B1C-4744-AD86-8D15DDDBB9BE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +53,10 @@ Global
 		{61460849-9EFB-4AB7-BD2D-7F4FAB27AEFE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{61460849-9EFB-4AB7-BD2D-7F4FAB27AEFE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{61460849-9EFB-4AB7-BD2D-7F4FAB27AEFE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{86F5F2C0-2B1C-4744-AD86-8D15DDDBB9BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{86F5F2C0-2B1C-4744-AD86-8D15DDDBB9BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{86F5F2C0-2B1C-4744-AD86-8D15DDDBB9BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{86F5F2C0-2B1C-4744-AD86-8D15DDDBB9BE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
