@@ -21,6 +21,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "008_overriding_and_overhidi
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "009_base_keyword", "009_base_keyword\009_base_keyword.csproj", "{076C3B85-6F24-43C3-974A-842D58F182B9}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "010_sealed_class_and_methods", "010_sealed_class_and_methods\010_sealed_class_and_methods.csproj", "{C5E57684-7B14-417E-8BF4-70C1FA86DE7C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "011_abstract_class_and_methods", "011_abstract_class_and_methods\011_abstract_class_and_methods.csproj", "{71EA7490-75E4-4496-A8E7-91DDC12CAC54}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -63,6 +67,14 @@ Global
 		{076C3B85-6F24-43C3-974A-842D58F182B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{076C3B85-6F24-43C3-974A-842D58F182B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{076C3B85-6F24-43C3-974A-842D58F182B9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C5E57684-7B14-417E-8BF4-70C1FA86DE7C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C5E57684-7B14-417E-8BF4-70C1FA86DE7C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C5E57684-7B14-417E-8BF4-70C1FA86DE7C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C5E57684-7B14-417E-8BF4-70C1FA86DE7C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{71EA7490-75E4-4496-A8E7-91DDC12CAC54}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{71EA7490-75E4-4496-A8E7-91DDC12CAC54}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{71EA7490-75E4-4496-A8E7-91DDC12CAC54}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{71EA7490-75E4-4496-A8E7-91DDC12CAC54}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
