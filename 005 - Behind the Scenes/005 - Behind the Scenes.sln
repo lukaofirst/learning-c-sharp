@@ -19,6 +19,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "007_dealing_with_time", "00
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "008_extension_methods", "008_extension_methods\008_extension_methods.csproj", "{D425F535-79D2-481A-82BB-E633DD65C70C}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "009_string_builders", "009_string_builders\009_string_builders.csproj", "{EC929B68-9DEE-4555-8882-43AB202660F0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -57,6 +59,10 @@ Global
 		{D425F535-79D2-481A-82BB-E633DD65C70C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D425F535-79D2-481A-82BB-E633DD65C70C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D425F535-79D2-481A-82BB-E633DD65C70C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EC929B68-9DEE-4555-8882-43AB202660F0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EC929B68-9DEE-4555-8882-43AB202660F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EC929B68-9DEE-4555-8882-43AB202660F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EC929B68-9DEE-4555-8882-43AB202660F0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
