@@ -15,6 +15,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "005_interpreted_queries", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "006_building_query_expressions", "006_building_query_expressions\006_building_query_expressions.csproj", "{C30AFADD-7C82-47EF-A859-6C527BAA6A3D}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "007_query_operators", "007_query_operators", "{DCF612BB-A39A-4228-BA64-D3AAE7897304}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "001_filtering", "007_query_operators\001_filtering\001_filtering.csproj", "{5EEA538A-E909-41FD-9D52-5E4E3B4362A8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -48,5 +52,12 @@ Global
 		{C30AFADD-7C82-47EF-A859-6C527BAA6A3D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C30AFADD-7C82-47EF-A859-6C527BAA6A3D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C30AFADD-7C82-47EF-A859-6C527BAA6A3D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5EEA538A-E909-41FD-9D52-5E4E3B4362A8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5EEA538A-E909-41FD-9D52-5E4E3B4362A8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5EEA538A-E909-41FD-9D52-5E4E3B4362A8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5EEA538A-E909-41FD-9D52-5E4E3B4362A8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{5EEA538A-E909-41FD-9D52-5E4E3B4362A8} = {DCF612BB-A39A-4228-BA64-D3AAE7897304}
 	EndGlobalSection
 EndGlobal
