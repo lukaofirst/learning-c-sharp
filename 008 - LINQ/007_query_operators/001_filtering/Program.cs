@@ -15,7 +15,7 @@ var personList = new List<Person>()
 var duplicatedNumbers = new int[] { 1, 1, 3, 4, 5, 5, 7, 7, 8, 10, 10 };
 
 /* - .Where() - */
-// Returns a IEnumerable<T> based on a predicate function
+// Returns an IEnumerable<T> based on a predicate function
 var resultWhere = personList.Where(x => x.Age > 40);
 
 /* - .Take() and .TakeWhile() - */
