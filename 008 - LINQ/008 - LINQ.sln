@@ -31,6 +31,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "006_set_operators", "007_qu
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "007_conversion_methods", "007_query_operators\007_conversion_methods\007_conversion_methods.csproj", "{27194459-6002-41C3-B382-5AF3709538F6}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "008_element_operators", "007_query_operators\008_element_operators\008_element_operators.csproj", "{B3C0C412-FEAA-4355-BD71-105B64FE32CB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -92,6 +94,10 @@ Global
 		{27194459-6002-41C3-B382-5AF3709538F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{27194459-6002-41C3-B382-5AF3709538F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{27194459-6002-41C3-B382-5AF3709538F6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B3C0C412-FEAA-4355-BD71-105B64FE32CB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B3C0C412-FEAA-4355-BD71-105B64FE32CB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B3C0C412-FEAA-4355-BD71-105B64FE32CB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B3C0C412-FEAA-4355-BD71-105B64FE32CB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{5EEA538A-E909-41FD-9D52-5E4E3B4362A8} = {DCF612BB-A39A-4228-BA64-D3AAE7897304}
@@ -101,5 +107,6 @@ Global
 		{7A4A053E-E9DA-466A-A7DC-84B3ED88B578} = {DCF612BB-A39A-4228-BA64-D3AAE7897304}
 		{67E1C9CB-FD58-4E08-A7CF-D7978540F701} = {DCF612BB-A39A-4228-BA64-D3AAE7897304}
 		{27194459-6002-41C3-B382-5AF3709538F6} = {DCF612BB-A39A-4228-BA64-D3AAE7897304}
+		{B3C0C412-FEAA-4355-BD71-105B64FE32CB} = {DCF612BB-A39A-4228-BA64-D3AAE7897304}
 	EndGlobalSection
 EndGlobal
